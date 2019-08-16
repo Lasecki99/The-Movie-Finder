@@ -1,0 +1,278 @@
+div.details {
+
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    left: -110%;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+    transition: 0.2s;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+div.black-background {
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -100;
+}
+
+div.details.active {
+    left: 0;
+}
+
+div.details h1 {
+    font-size: 60px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 1px;
+    width: 700px;
+    text-align: center;
+    width: 90%;
+}
+
+div.details h2 {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    color: white;
+    font-weight: 200;
+    width: 640px;
+    text-align: left;
+}
+
+
+div.details i {
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 100px;
+    left: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+    z-index: 1000000000;
+}
+
+div.details i:hover {
+    color: #eb4e7a;
+}
+
+div.details div.other-info {
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    text-align: center;
+    background-color: rgba(10, 10, 10, 0.6);
+    border-top: 1px solid #eb4e7a;
+    border-bottom: 1px solid #eb4e7a;
+    padding: 50px 20px;
+}
+
+
+
+div.details div.other-info p {
+    color: white;
+    font-weight: 100;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+@media (max-width:1250px) {
+    div.details h1 {
+        top: 150px;
+        left: -100px;
+        font-size: 50px;
+    }
+
+
+
+    div.details h2 {
+        top: 300px;
+        font-size: 24px;
+        width: 540px;
+
+    }
+
+
+    div.details div.other-info p {
+        font-size: 24px;
+    }
+
+
+}
+
+@media (max-width:1050px) {
+    div.details h1 {
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 40px;
+    }
+
+
+
+    div.details h2 {
+        top: 190px;
+        text-align: center;
+        width: 80%;
+        left: 50%;
+        font-size: 20px;
+        transform: translateX(-50%);
+    }
+
+    div.details div.other-info {
+        right: 50%;
+        transform: translateX(50%);
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+
+    div.details div.other-info p {
+        padding: 5px 0;
+    }
+
+}
+
+@media (max-width:800px) {
+    div.details h1 {
+        font-size: 22px;
+
+    }
+
+    div.details h2 {
+        top: 170px;
+        font-size: 16px;
+    }
+
+    div.details div.other-info {
+        width: 90%;
+        padding: 5px 0;
+    }
+
+
+    div.details div.other-info p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:700px) and (orientation:landscape) {
+    div.details h1 {
+        font-size: 19px;
+        top: 80px;
+    }
+
+    div.details h2 {
+        top: 110px;
+        font-size: 15px;
+    }
+
+    div.details i {
+        font-size: 30px;
+        top: 80px;
+    }
+
+    div.details div.other-info {
+        width: 90%;
+        padding: 1px 0;
+        bottom: 1%;
+    }
+
+
+    div.details div.other-info p {
+        font-size: 13px;
+        padding: 0px;
+    }
+}
+
+
+
+@media (max-width:501px) {
+    div.details h1 {
+        font-size: 20px;
+    }
+
+    div.details h2 {
+        top: 170px;
+        font-size: 16px;
+        width: 90%;
+    }
+
+    div.details div.other-info p {
+        font-size: 15px;
+    }
+
+    div.details i {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:500px) and (orientation:landscape) {
+    div.details h1 {
+        font-size: 20px;
+        top: 80px;
+    }
+
+    div.details h2 {
+        top: 110px;
+        font-size: 14px;
+    }
+
+    div.details i {
+        font-size: 30px;
+        top: 80px;
+    }
+
+    div.details div.other-info {
+        width: 90%;
+        padding: 1px 0;
+        bottom: 1%;
+    }
+
+
+    div.details div.other-info p {
+        font-size: 13px;
+        padding: 0px;
+    }
+}
+
+@media (max-width:400px) {
+    div.details h1 {
+        font-size: 20px;
+        top: 75px;
+    }
+
+    div.details h2 {
+        top: 125px;
+        font-size: 15px;
+        width: 92%;
+        margin-left: 0;
+    }
+
+    div.details div.other-info {
+        right: 50%;
+        transform: translateX(50%);
+        text-align: center;
+    }
+
+    div.details div.other-info p {
+        padding: 2px 0;
+        font-size: 15px;
+    }
+
+
+
+    div.details i {
+        font-size: 30px;
+        top: 75px;
+    }
+}

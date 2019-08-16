@@ -1,0 +1,13 @@
+div.search-list {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    top: 69px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #131517;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
