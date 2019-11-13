@@ -4,21 +4,13 @@ import reactImage from '../img/react.png'
 
 const seeDetails = (props) => {
 
-
-    const { title, overview, release_date, production, rating, genres, revenue, budget, runtime, backdrop } = props.movie
-
+    const { title, overview, release_date, production, rating, genres, revenue, budget, runtime, backdrop } = props.movie;
     let genresInfo;
 
     if (genres) {
-        if (genres[0]) {
-            genresInfo = genres[0].name
-        }
-        if (genres[1]) {
-            genresInfo = genres[0].name + `, ` + genres[1].name
-        }
-        if (genres[2]) {
-            genresInfo = genres[0].name + `, ` + genres[1].name + `, ` + genres[2].name
-        }
+        if (genres[0]) genresInfo = genres[0].name;
+        if (genres[1]) genresInfo = genres[0].name + `, ` + genres[1].name;
+        if (genres[2]) genresInfo = genres[0].name + `, ` + genres[1].name;
     }
 
     let details = props.movie.length !== 0 ? <div style={backdrop ? {
@@ -28,7 +20,6 @@ const seeDetails = (props) => {
         }} className='details'>
 
         <div className="black-background">
-
             <i onClick={props.close} className="fas fa-long-arrow-alt-left"></i>
             <h1>{title}</h1>
             <h2>{overview}</h2>
@@ -40,7 +31,6 @@ const seeDetails = (props) => {
                 <p>Budget: {budget ? budget + ' $' : `No data avaiable`} </p>
                 <p>Revenue: {revenue ? revenue : `No data avaiable`}</p>
                 <p>Genres: {genresInfo ? genresInfo : 'No data avaiable'}</p>
-
             </div>
         </div>
     </div> : null

@@ -8,7 +8,6 @@ import "slick-carousel/slick/slick-theme.css";
 const Upcoming = (props) => {
 
     let movie;
-
     const settings = {
         dots: false,
         slidesToShow: 5,
