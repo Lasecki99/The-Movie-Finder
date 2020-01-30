@@ -12,9 +12,7 @@ div.movie ul {
 div.movie ul li {
     width: 100%;
     position: relative;
-
 }
-
 
 div.movie ul li div h4 {
     position: absolute;
@@ -60,14 +58,11 @@ div.movie ul li::after {
 div.movie ul li:hover h4,
 div.movie ul li:hover h5 {
     opacity: 1;
-
 }
 
 @media (max-width:1000px) {
     div.movie ul li div h4 {
-
         font-size: 25px;
-
     }
 
     div.movie ul li div h5 {
@@ -81,7 +76,6 @@ div.movie ul li:hover h5 {
         font-size: 18px;
         width: 100%;
         text-align: left;
-
     }
 
     div.movie ul li div h5 {

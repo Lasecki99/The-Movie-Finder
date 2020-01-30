@@ -19,7 +19,6 @@ footer p {
     transition: 0.2s;
 }
 
-
 footer p:hover {
     color: white;
     border-bottom-color: #eb4e7a;

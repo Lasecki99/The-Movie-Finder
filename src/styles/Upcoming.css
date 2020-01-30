@@ -1,10 +1,7 @@
 div.all {
     background-color: #131517;
     width: 100%;
-
 }
-
-
 
 div.all h2 {
     color: white;
@@ -15,13 +12,10 @@ div.all h2 {
     display: inline-block;
 }
 
-
-
 div.movie-item {
     max-width: 250px;
     height: 375px;
     margin: 20px 0px 0 60px;
-
 }
 
 div.movie-item.search {
@@ -50,20 +44,14 @@ div.movie-item p.movie-title {
 
 div.movie-item p.movie-title:hover {
     color: #eb4e7a;
-
 }
-
 
 div.movie-item img {
     width: 250px;
     height: 375px;
     display: block;
     cursor: pointer;
-
-
 }
-
-
 
 .slick-prev {
     left: 1% !important;
@@ -81,18 +69,14 @@ div.movie-item img {
 }
 
 @media (max-width: 950px) {
-
     div.all h2 {
         font-size: 20px;
         margin-left: 20px;
     }
 
-
-
     div.movie-item img {
         width: 200px;
         height: 300px;
-
     }
 
     div.movie-item p.movie-title {
@@ -109,7 +93,6 @@ div.movie-item img {
 
     }
 }
-
 
 @media (max-width: 550px) {
     div.movie-item {

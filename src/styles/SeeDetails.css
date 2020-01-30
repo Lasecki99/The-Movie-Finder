@@ -1,5 +1,4 @@
 div.details {
-
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -11,12 +10,9 @@ div.details {
     transition: 0.2s;
     background-position: center;
     background-size: cover;
-
 }
 
-
 div.black-background {
-
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
@@ -93,21 +89,15 @@ div.details div.other-info p {
         font-size: 50px;
     }
 
-
-
     div.details h2 {
         top: 300px;
         font-size: 24px;
         width: 540px;
-
     }
-
 
     div.details div.other-info p {
         font-size: 24px;
     }
-
-
 }
 
 @media (max-width:1050px) {
@@ -117,8 +107,6 @@ div.details div.other-info p {
         transform: translateX(-50%);
         font-size: 40px;
     }
-
-
 
     div.details h2 {
         top: 190px;
@@ -140,13 +128,11 @@ div.details div.other-info p {
     div.details div.other-info p {
         padding: 5px 0;
     }
-
 }
 
 @media (max-width:800px) {
     div.details h1 {
         font-size: 22px;
-
     }
 
     div.details h2 {
@@ -158,7 +144,6 @@ div.details div.other-info p {
         width: 90%;
         padding: 5px 0;
     }
-
 
     div.details div.other-info p {
         font-size: 18px;
@@ -268,8 +253,6 @@ div.details div.other-info p {
         padding: 2px 0;
         font-size: 15px;
     }
-
-
 
     div.details i {
         font-size: 30px;
