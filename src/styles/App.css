@@ -48,7 +48,7 @@ nav form a i.fa-search {
   transition: 0.2s;
 }
 
-nav form a i.fa-search:hover {
+nav form a i.fa-search.active {
   color: #eb4e7a;
 }
 
@@ -76,6 +76,11 @@ nav a.arrow i.fa-long-arrow-alt-left:hover {
     background-color: #1F2225;
     border: 1px solid #363b41;
     color: white;
+  }
 
+  nav a.arrow i.fa-long-arrow-alt-left {
+    font-size: 35px;
+    transform-origin: 50% 0%;
+    transform: rotate(90deg) translateY(-1px);
   }
 }

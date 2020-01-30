@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import '../styles/Home.css'
-import { Carousel } from 'react-responsive-carousel'
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import '../styles/Home.css';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { GetData } from '../contexts/GetDataContext';
 import Spinner from './Spinner';
 import { SearchMovie } from '../contexts/SearchMovieContext';
@@ -13,11 +13,12 @@ const Home = () => {
 
     const movie = homeMovies.map(item => {
         if (item.backdrop_path) {
+            const { backdrop_path, title, id } = item;
             return (
-                <div key={item.id}>
-                    <img src={`https://image.tmdb.org/t/p/original/` + item.backdrop_path} alt={item.title} />
-                    <h4>{item.title}</h4>
-                    <h5 onClick={() => getClickedMovie(item.id)}>See details</h5>
+                <div key={id}>
+                    <img src={`https://image.tmdb.org/t/p/original/` + backdrop_path} alt={title} />
+                    <h4>{title}</h4>
+                    <h5 onClick={() => getClickedMovie(id)}>See details</h5>
                 </div>
             )
         } else return null;

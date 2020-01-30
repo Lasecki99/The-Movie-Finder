@@ -7,7 +7,6 @@ const SearchMovieProvider = (props) => {
 
     const [oneMovie, setOneMovie] = useState(['1']);
 
-
     const getClickedMovie = movieID => {
         //open details window
         document.querySelector('div.details').classList.add('active');

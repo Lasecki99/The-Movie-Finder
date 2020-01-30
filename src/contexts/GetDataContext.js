@@ -14,7 +14,6 @@ const GetDataProvider = (props) => {
 
    useEffect(() => {
       if (!isInited) {
-         console.log('wchodze');
          dataUrl.map(item => {
             const { URL, name } = item;
             fetch(URL)
@@ -37,7 +36,7 @@ const GetDataProvider = (props) => {
                         setHomeMovies(data.results);
                         break;
                      case 'genresList':
-                        setGenres(data);
+                        setGenres(data.genres);
                         break;
                      default:
                         break;
@@ -53,8 +52,8 @@ const GetDataProvider = (props) => {
 
    return (
       <GetData.Provider value={{ homeMovies, genres, popularMovies, topRated, upcomingMovies, moviesWithTomHanks, isInited }}>
-         {props.children};
-        </GetData.Provider>
+         {props.children}
+      </GetData.Provider>
    );
 }
 
