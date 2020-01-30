@@ -10,8 +10,8 @@ import MoviesWithTomHanks from './MoviesWithTomHanks'
 import SearchList from './SearchList'
 import { BrowserRouter, Link, Route, Switch } from 'react-router-dom'
 import Form from './Form';
-import Footer from './Footer'
-
+import Footer from './Footer';
+import { dataUrl } from '../fetchUrls/fetchUrls';
 
 class App extends Component {
    state = {
@@ -36,6 +36,8 @@ class App extends Component {
    }
 
    getHomeMovies = () => {
+      console.log(dataUrl);
+      console.log(process.env);
       const URL = `https://api.themoviedb.org/3/movie/now_playing?api_key=30406056042449abcb3b86e3f1b631cd&language=en-US&page=1.json`;
       fetch(URL)
          .then(response => response.json())

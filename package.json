@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "dotenv": "^8.2.0",
     "gh-pages": "^2.0.1",
     "jquery": "^3.4.1",
     "react": "^16.8.6",
