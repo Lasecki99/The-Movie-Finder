@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/The-Movie-Finder/static/css/main.01811392.chunk.css",
-    "main.js": "/The-Movie-Finder/static/js/main.2028320d.chunk.js",
-    "main.js.map": "/The-Movie-Finder/static/js/main.2028320d.chunk.js.map",
-    "runtime-main.js": "/The-Movie-Finder/static/js/runtime-main.cce4c6cf.js",
-    "runtime-main.js.map": "/The-Movie-Finder/static/js/runtime-main.cce4c6cf.js.map",
-    "static/css/2.1eb094ed.chunk.css": "/The-Movie-Finder/static/css/2.1eb094ed.chunk.css",
-    "static/js/2.69f7deb9.chunk.js": "/The-Movie-Finder/static/js/2.69f7deb9.chunk.js",
-    "static/js/2.69f7deb9.chunk.js.map": "/The-Movie-Finder/static/js/2.69f7deb9.chunk.js.map",
+    "main.css": "/The-Movie-Finder/static/css/main.f7113325.chunk.css",
+    "main.js": "/The-Movie-Finder/static/js/main.40464ea9.chunk.js",
+    "main.js.map": "/The-Movie-Finder/static/js/main.40464ea9.chunk.js.map",
+    "runtime-main.js": "/The-Movie-Finder/static/js/runtime-main.9f02bf15.js",
+    "runtime-main.js.map": "/The-Movie-Finder/static/js/runtime-main.9f02bf15.js.map",
+    "static/css/2.0d7af43b.chunk.css": "/The-Movie-Finder/static/css/2.0d7af43b.chunk.css",
+    "static/js/2.752d7ef5.chunk.js": "/The-Movie-Finder/static/js/2.752d7ef5.chunk.js",
+    "static/js/2.752d7ef5.chunk.js.map": "/The-Movie-Finder/static/js/2.752d7ef5.chunk.js.map",
     "index.html": "/The-Movie-Finder/index.html",
-    "precache-manifest.409d01d8c5b9a085259633aa02fceed0.js": "/The-Movie-Finder/precache-manifest.409d01d8c5b9a085259633aa02fceed0.js",
+    "precache-manifest.2ac42f0b9ccdc8da8cca1e7ad8b87e0e.js": "/The-Movie-Finder/precache-manifest.2ac42f0b9ccdc8da8cca1e7ad8b87e0e.js",
     "service-worker.js": "/The-Movie-Finder/service-worker.js",
-    "static/css/2.1eb094ed.chunk.css.map": "/The-Movie-Finder/static/css/2.1eb094ed.chunk.css.map",
-    "static/css/main.01811392.chunk.css.map": "/The-Movie-Finder/static/css/main.01811392.chunk.css.map",
-    "static/js/2.69f7deb9.chunk.js.LICENSE": "/The-Movie-Finder/static/js/2.69f7deb9.chunk.js.LICENSE",
+    "static/css/2.0d7af43b.chunk.css.map": "/The-Movie-Finder/static/css/2.0d7af43b.chunk.css.map",
+    "static/css/main.f7113325.chunk.css.map": "/The-Movie-Finder/static/css/main.f7113325.chunk.css.map",
+    "static/js/2.752d7ef5.chunk.js.LICENSE.txt": "/The-Movie-Finder/static/js/2.752d7ef5.chunk.js.LICENSE.txt",
     "static/media/react.png": "/The-Movie-Finder/static/media/react.b03c571c.png",
     "static/media/slick-theme.css": "/The-Movie-Finder/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cce4c6cf.js",
-    "static/css/2.1eb094ed.chunk.css",
-    "static/js/2.69f7deb9.chunk.js",
-    "static/css/main.01811392.chunk.css",
-    "static/js/main.2028320d.chunk.js"
+    "static/js/runtime-main.9f02bf15.js",
+    "static/css/2.0d7af43b.chunk.css",
+    "static/js/2.752d7ef5.chunk.js",
+    "static/css/main.f7113325.chunk.css",
+    "static/js/main.40464ea9.chunk.js"
   ]
 }
