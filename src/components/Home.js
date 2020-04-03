@@ -11,7 +11,7 @@ const Home = () => {
     const { homeMovies, isInited } = useContext(GetData);
     const { getClickedMovie } = useContext(SearchMovie);
 
-    const movie = homeMovies.map(item => {
+    const movie = homeMovies?.map(item => {
         if (item.backdrop_path) {
             const { backdrop_path, title, id } = item;
             return (

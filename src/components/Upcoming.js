@@ -21,7 +21,7 @@ const Upcoming = () => {
             if (movie.poster_path) {
                 return (
                     <div className='movie-item' key={movie.id}>
-                        <p className="movie-genres">{genres[index].name}</p>
+                        <p className="movie-genres">{genres[index]?.name}</p>
                         <img src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt="" />
                         <p onClick={() => getClickedMovie(movie.id)} className='movie-title'>{movie.title}</p>
                     </div>
